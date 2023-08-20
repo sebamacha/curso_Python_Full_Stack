@@ -1,0 +1,19 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid blue;
+    /* transform: rotateX(150deg); */
+    /* transform: rotateY(190deg); */
+    
+    /* Transform agranda el tamaño de 
+    la div */
+    /* transform: scale(2,3); */
+    /* Transform achica el tamaño de 
+    la div */
+    /* transform: scale(0.5,0.5); */
+}
+
+div:hover{
+    transform: scale(1.1,1.1);
+}

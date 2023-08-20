@@ -1,0 +1,77 @@
+/* Color de fondo al main */
+main{
+    border-color: rgb(170, 165, 159);
+    
+    }
+    
+    
+    
+    
+    /* Definir las dimensiones 
+    de los flex-items
+    y color de fondo */
+    
+    
+    .flex-container{
+        height: 40vh;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        align-items: center;
+        
+    }
+    
+    
+    
+    /* Definir para el
+    contenedor las propiedades
+    display2para justificar 
+    altura 
+    alinear los items */
+    
+    
+    
+    .flex-items{
+        height: 250px;
+        width: 250px;
+        border-color: black;
+        border-style:dashed;
+        padding-top: 50px;
+        padding-left: 8px;
+        padding-right: 8px;
+        box-sizing:border-box;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: unset;        
+    }
+    
+    @media screen and (max-width:600px){
+        main{
+            background-color: cornflowerblue;
+            height: 135vh;
+            padding: 20px;
+        }
+        
+    }
+    
+    
+    @media screen and (min-width:600px)and (max-width:768px){
+        .flex-container{
+            height:auto
+            background-color: blueviolet;
+            padding: auto;
+        }
+        
+    }
+
+    @media screen and (min-width:768px) {
+        .flex-container{
+            height: 50vh;
+            background-color: coral;
+        }
+        
+    }
+    
+    
+    
+    

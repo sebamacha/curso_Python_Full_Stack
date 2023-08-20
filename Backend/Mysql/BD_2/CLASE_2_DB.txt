@@ -1,0 +1,75 @@
+0. INICIAR MySQL EN XAMPP
+1. EN LOCALHOST CLICK DERECHO: "New Query"
+2. COPIAR Y PEGAR EL CÓDIGO world.sql EN EL ARCHIVO ABIERTO PARA "New Query" EN VISUAL STUDIO CODE
+3. Click derecho para "New Query en la base de datos: world, INDICAR LA BASE DE DATOS 
+A UTILIZAR
+USE nombre_db;
+"CONSULTAR LOS 5 PRIMEROS REGISTROS DE CADA TABLA: country, city, countrylanguage
+
+4 - CONTAR CUÁNTOS REGISTROS DISPONIBLES:
+SELECT COUNT(*) AS alias FROM nombre_tabla;
+
+5. /*  Listar código, nombre, continente y población de todos los países. (Se esperan 4 columnas y 239 registros).*/
+SELECT col1, col2, col3, col4 FROM nombre_tabla;
+
+6. /* Listar toda la información de los países, ordenados por población de manera 
+ascendente. (Se esperan 15 columnas y 239 registros). */
+SELECT todo FROM nombre_tabla ordenar por nombre_columna;
+
+7. /* Listar todos los datos de los países que no cuenten con habitantes. (Se esperan 
+15 columnas y 7 registros) */
+SELECT todo FROM nombre_tabla WHERE nombre_columna=0;
+
+8. /* Listar el nombre, la cantidad de habitantes, la superficie y una columna llamada 
+'Densidad' con el resultado de la densidad poblacional de todos los países.
+densidad poblacional(cantidad de habitantes)/ superficie del 
+pais  (Se esperan 4 columnas y 239 registros). */
+SELECT col1, col2, col3, division AS alias FROM nombre_tabla;
+
+9. /* CONTAR CUÁNTOS PAISES HAY POR CONTINENTE: */
+SELECT col, COUNT(col) AS alias FROM nombre_tabla GROUP BY columna_a_representar;
+
+10. /* Listar todos los datos de los países cuya expectativa de vida supere los setenta y 
+cinco años, ordenados bajo este concepto de forma ascendente. (Se esperan 15 
+columnas y 62 registros). */
+SELECT todo FROM nombre_tabla WHERE columna > 75 ORDER BY columna_evaluada;
+
+11. /* Listar todos los datos de los países del continente "Sur América"
+cuya expectativa de vida supere los setenta y cinco años*/
+SELECT todo FROM nombre_tabla WHERE columna > 75 AND columna LIKE nombre_continente;
+
+12/* Listar todos los datos de los países situados en Europa,
+Asia o Sudamérica. (Se esperan 15 columnas y 111 registros). */
+SELECT todo FROM nombre_tabla WHERE columna en ("dato1", "dato2", "dato3");
+
+13. /* Listar todos los datos de las ciudades entre 125 mil y 130 mil habitantes. (Se 
+esperan 5 columnas y 138 registros). */
+SELECT todo FROM nombre_tabla WHERE columna BETWEEN valor AND valor;
+
+14. /* Listar todos los datos de los países cuyo nombre comience y termine con 'A'.
+(Se esperan 15 columnas y 13 registros) */
+SELECT todo FROM nombre_tabla WHERE column LIKE 'A%' AND column LIKE '%A';
+
+15. /* Listar los nombres de los países sudamericanos junto a los nombres (alias 
+'Capital') de sus capitales. (Se esperan 2 columnas y 14 registros). */
+PRIMERO CONSULTAR: SELECT col1, col2 FROM nombre_tabla;
+
+SELECT tabla.columna AS alias, tabla.columna AS alias
+FROM nombre_tabla, nombre_tabla2
+WHERE columna LIKE dato AND tabla.columna=tabla2.columna;
+
+16. REPETIR LA OPERACIÓN CON INNER JOIN
+SELECT tabla.columna AS alias, tabla2.columna AS alias2
+FROM tabla
+INNER JOIN tabla2 ON tabla.columna=tabla2.columna
+WHERE columna LIKE dato;
+
+17./* TENGAN O NO CAPITAL*/
+SELECT tabla.columna AS alias, tabla2.columna AS alias2
+FROM tabla
+LEFT JOIN tabla2 ON tabla.columna=tabla2.columna;
+
+18./* TENGAN O NO PAIS*/
+SELECT tabla.columna AS alias, tabla2.columna AS alias2
+FROM tabla
+RIGHT JOIN tabla2 ON tabla.columna=tabla2.columna;

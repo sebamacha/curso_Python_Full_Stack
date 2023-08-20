@@ -1,0 +1,19 @@
+#p1{
+    background-color: red;
+}
+
+#p2{
+    background-color: #ff0000;
+}
+
+#p3{
+    background-color: rgb(255,0,0);
+}
+
+#p4{
+    background-color: rgba(255,0,0,1);
+}
+
+#p5{
+    background-color: rgba(100%,0%,0%,1);
+}

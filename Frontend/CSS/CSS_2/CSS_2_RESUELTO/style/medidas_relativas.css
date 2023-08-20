@@ -1,0 +1,22 @@
+/* Unidad de medida: em */
+body{
+    font-size: 20px;
+}
+
+#p1{
+    font-size: 2em;
+}
+
+/* Unidad de medida: rem  */
+:root{
+    font-size: 16px;
+}
+
+#p2{
+    font-size: 2rem;
+}
+
+/* Unidad de medida: % */
+#p3{
+    font-size: 250%;
+}

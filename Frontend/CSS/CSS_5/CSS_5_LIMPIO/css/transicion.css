@@ -1,0 +1,66 @@
+/* Agregar al div
+dimensiones 
+color de fondo
+borde
+aplicar propiedad para transición: para ancho
+duración transición  
+ */
+div{
+   height: 70px;
+   width: 120px;
+   background-color: yellow;
+   align-content: center;
+   text-align: center;
+   border: 5px;
+   font-size: large;
+   font-family: Arial, Helvetica, sans-serif;
+   transition-property:unset;
+   transition-duration: 1s;
+   margin-block-start: 5px;
+   padding-top: 2rem;
+   opacity: .8;
+}
+
+div:hover{
+    width: 150px;
+    background-color: darkolivegreen;
+}
+
+/* Agregar un hover
+al div 
+e incluir un ancho */
+
+a:hover{
+    background-color: rgb(195, 228, 228);
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    transition-property: all;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    transition-timing-function:ease-out
+    transition-duration: 3s;
+}
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-display:unset ;
+    font-optical-sizing:unset ;
+}
+
+
+/* Al hipervinculo agregar
+una pseudoclase: hover
+color de fondo
+color
+relleno 
+transición para todo
+duración transición  
+velocidad de transición timing-fuction
+ease-in (inicia lento a rápido)
+ */
+
+

@@ -1,0 +1,18 @@
+#d1{
+    width:300px;
+    height: 100px;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#d2{
+    width: 300px;
+    height: 100px;
+    /* border: grosor tipo color */
+    border: 5px solid blue;
+    padding: 50px 25px 50px 25px;
+    margin: 50px 10px 50px 8px;
+    border-color:chartreuse red violet black;
+    
+}

@@ -1,0 +1,20 @@
+#d1{
+    width:300px;
+    height: 100px;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#d2{
+    width: 300px;
+    height: 100px;
+    /* border: grosor tipo color */
+    border: 2px solid blue;
+    padding: 50px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    overflow:auto;
+    
+}

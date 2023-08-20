@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.items{
+    height: 500px;
+    width: 204px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    
+}
+

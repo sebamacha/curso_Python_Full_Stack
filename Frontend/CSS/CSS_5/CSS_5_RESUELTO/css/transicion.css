@@ -1,0 +1,50 @@
+/* Agregar al div
+dimensiones 
+color de fondo
+borde
+aplicar propiedad para transición: para ancho
+duración transición  
+ */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    
+    transition-property: width;
+    transition-duration: 2s;
+    margin-bottom: 50px;
+}
+
+/* Agregar un hover
+al div 
+e incluir un ancho */
+div:hover{
+    width: 500px;
+    background-color: blue;
+}
+
+
+
+/* Al hipervinculo agregar
+una pseudoclase: hover
+color de fondo
+color
+relleno 
+transición para todo
+duración transición  
+velocidad de transición timing-fuction
+ease-in (inicia lento a rápido)
+ */
+
+a:hover{
+    background-color: cornflowerblue;
+    color:brown;
+    padding: 10px;
+    
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+   
+}
+

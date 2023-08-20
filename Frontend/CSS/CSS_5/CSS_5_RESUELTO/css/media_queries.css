@@ -1,0 +1,26 @@
+/* @media screen and (ancho: valor){
+    selector{propiedad: valor;}
+    
+} */
+
+/* Puntos de corte */
+/* Mobile */
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(40, 189, 139);
+    }
+    
+}
+
+/* Tablet */
+@media screen and (min-width:600px) and (max-width:768px){
+    body{
+        background-color: crimson;
+    }
+
+    p{
+        color: white;
+        font-size: xx-small;
+    }
+    
+}

@@ -1,0 +1,77 @@
+/* Definir las propiedades
+para los hijos (.box)
+color de fondo
+padding
+color
+alinear texto
+ */
+.box{
+    background-color: cadetblue;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* Definir las propiedades para el contenedor
+display
+Tamaño de 3 columnas (grid-template-columns y repeat()) con 1fr 
+Tamaño de 2 filas (grid-template-rows) indicar valores fr
+Separar cajas por columnas y filas con gap
+ */
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* gap: 1%; */
+}
+
+
+/* Expandir las cajas */
+/* Acceder a la clase box seguido 
+la clase box1 --> .box .box1 
+definir grid-column con fracción 1/4
+para que abarque todas las columnas de la primer fila
+color fondo*/
+.box.box-1{
+    grid-column: 1/4 ;
+    background-color: blue;
+}
+
+/* Acceder a la clase box seguido 
+box2 
+definir grid-row con fracción 2/4
+para que abarque la segunda y tercer fila
+color fondo*/
+.box.box-2{
+    grid-row: 2/4;
+    background-color: aqua;
+}
+
+
+/* Acceder a la clase box seguido 
+box3 
+definir grid-column la segunda 2 y última columna con fracción 4
+para que abarque la segunda 2  y tercer fila 4
+color fondo*/
+.box.box-3{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: brown;
+}
+
+
+/* Acceder a la clase box seguido 
+la clase box4
+definir grid-column con fracción
+para que abarque todas las columnas de la última fila 1/4
+color fondo*/
+.box.box-4{
+    grid-column: 1/4;
+    background-color:violet;
+}
+
+
+
+

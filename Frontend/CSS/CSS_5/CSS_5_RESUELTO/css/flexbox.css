@@ -1,0 +1,61 @@
+/* Color de fondo al main */
+main{
+    border-color: bisque;
+    
+    }
+    
+    
+    
+    
+    /* Definir las dimensiones 
+    de los flex-items
+    y color de fondo */
+    
+    
+    .flex-container{
+        height: 40vh;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap:wrap;
+        align-items: center;
+        
+    }
+    
+    
+    
+    /* Definir para el
+    contenedor las propiedades
+    display2para justificar 
+    altura 
+    alinear los items */
+    
+    
+    
+    .flex-items{
+        height: 250px;
+        width: 250px;
+        border-color: black;
+        border-style:dashed;
+        padding: 20px;
+        box-sizing:border-box;
+        
+    }
+    
+    @media screen and (max-width:600px){
+        main{
+            background-color: cornflowerblue;
+            height: 100vh;
+            padding: 50px;
+        }
+        
+    }
+    
+    
+    @media screen and (min-width:600px)and (max-width:768px){
+        .flex-container{
+            height: 50vh;}
+        
+    }
+    
+    
+    

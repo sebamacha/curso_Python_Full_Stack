@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.especial{
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    height: 200px;
+}
+      
+.d1{
+    background-color: aqua;
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+#s1{
+    background-color: burlywood;
+    height: 300px;
+    margin: 50px;
+}

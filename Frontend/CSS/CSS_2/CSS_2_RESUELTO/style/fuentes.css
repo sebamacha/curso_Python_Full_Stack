@@ -1,0 +1,23 @@
+
+/* Por defecto */
+#p1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Fuente externa, se uso el link que se incorporo en 
+el <head> */
+#p2{
+    font-family:"PT Sans";
+}
+
+/* Fuente externa, donde se uso la carpeta con fuentes
+ubicada en fonts  
+el <head> */
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-MediumItalic.ttf');
+}
+
+#p3{
+    font-family: "Roboto";
+}

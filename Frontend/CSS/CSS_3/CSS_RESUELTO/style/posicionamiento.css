@@ -1,0 +1,48 @@
+.contenedor{
+    width: 800px;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+/* static */
+#estatico{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: static;
+}
+/* relative
+top
+lef + - */
+#relativa{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position:relative;
+    top: 10px;
+    left: 50px;
+}
+
+/* absolute
+top 
+left nro/0 */
+#absoluta{
+    width: 100px;
+    height: 100px;
+    background-color:crimson;
+    position:absolute;
+    top: 400px;
+    left: 200px;
+}
+
+/* fixed
+top
+nro/0 */
+#fija{
+    width: 100px;
+    height: 100px;
+    background-color:coral;
+    position:fixed;
+    top:400px;
+
+}

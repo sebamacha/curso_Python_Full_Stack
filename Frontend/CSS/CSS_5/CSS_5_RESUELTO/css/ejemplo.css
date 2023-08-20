@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%; /*equivale a 10px*/
+}
+
+/* Pueden incluir una  */
+/* Fuente de la carpeta fonts */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+
+/* ------Estilo al encabezado----- */
+/* Definir las propiedades
+para incorporar flex
+y justificar el contenido */
+#flex-menu{
+    display: flex;
+    justify-content: end;
+}
+
+
+/* Estilo a los hipervínculos */
+/* Aplicando selector hijo directo 
+padre > hijo, esto evita agregar 
+una clase a cada hipervínculo
+definir tamaño de fuente
+Eliminar el subrayado con: text-decoration
+agregar un margen para separar*/
+#flex-menu > a{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 4rem;
+}
+
+/* Agregar una pseudoclase a los 
+hipervinculos 
+una vez visitado
+y color al pasar cursor*/
+a:hover{
+    background-color: blanchedalmond;
+}
+
+
+
+/* ------Estilo para la sección----- */
+/* Acceder a la sección por su clase
+agregar la propiedad para definir flex
+indicar la dirección en columnas
+alinear los items al centro */
+.flex-seccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estilo al titulo
+tamaño de fuente con unidades flexibles
+vh */
+.titulo{
+    font-size: 6rem;
+}
+
+/* Estilo al párrafo tamaño de fuente con unidades flexibles
+vw */
+.parrafo{
+    font-size: 2rem;
+}
+/* --------Estilo para el contenido principal---- */
+.flex-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* Estilos para el seccion2 */
+
+
+/* Estilo para header y footer
+alto
+color fondo */
+
+
+
+/* Separar el main y secciones */

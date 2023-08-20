@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/* Fuente de la carpeta fonts */
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+
+
+/* ------Estilo al encabezado----- */
+/* Definir las propiedades
+para incorporar flex
+y justificar el contenido */
+
+
+/* Estilo a los hipervínculos */
+/* Aplicando selector hijo directo 
+padre > hijo, esto evita agregar 
+una clase a cada hipervínculo
+definir tamaño de fuente
+Eliminar el subrayado con: text-decoration
+agregar un margen para separar*/
+
+
+/* Agregar una pseudoclase a los 
+hipervinculos 
+una vez visitado
+y color al pasar cursor*/
+
+
+
+
+/* ------Estilo para la sección----- */
+/* Acceder a la sección por su clase
+agregar la propiedad para definir flex
+indicar la dirección en columnas
+alinear los items al centro */
+
+
+/* Estilo al titulo
+tamaño de fuente con unidades flexibles
+vh */
+
+
+/* Estilo al párrafo tamaño de fuente con unidades flexibles
+vw */
+
+/* --------Estilo para el contenido principal---- */
+
+
+
+/* Estilos para el seccion */
+
+
+/* Mismo estilo para header y footer
+alto
+color fondo */
+
+
+
+/* Separar el main y secciones */

@@ -1,0 +1,93 @@
+/* ----------Selectores Avanzados---------- */
+
+
+/* Selector agrupado: se aplica todas
+las reglas a todas las etiquetas 
+separadas por coma. Ej: extraer
+el padding de varias etiquetas 
+semanticas*/
+
+
+
+
+/* Selector descendente: se aplica la 
+regla a toda etiqueta contenida dentro 
+del contenedor indicado, separando
+por espacio
+etiqueta_contenedor etiqueda_afectada{}  */
+
+
+
+
+/* Selector hijos directos: especifica 
+la relación padre e hijo directo
+etiqueta_padre > etiqueta_hijo{}
+ */
+
+
+
+/* Selector hijos no directos: especifica 
+la relación padre y cualquier hijo
+etiqueta_padre * etiqueta_hijo{}
+ */
+
+
+
+
+
+/* Selector hermanos adyacentes: aplica
+la regla a dos etiquetas que sean consecutivas
+titulo + subtitulo{} */
+
+
+
+
+
+/* Selector general hermanos 
+titulo ~ subtitulo{}*/
+
+
+
+/* -----------Pseudoclases--------------- */
+/* Aplicados a los hipervínculos, cambiar color*/
+/* :hover */
+
+
+
+
+/* :link */
+
+
+
+/* :activate */
+
+
+
+/* :visited */
+
+
+/* Primer hipervinculo
+:first-child */
+
+
+/* Último elemento 
+:last-child */
+
+
+/* Cualquier elemnto por posición */
+/* :nth-child(ubicación) */
+
+
+
+/* ------------Pseudoelementos */
+/* Aplicar propiedad a primer letra del párrafo
+::first-letter */
+
+
+/* Aplicar propiedad a primer línea del párrafo
+::first-line */
+
+
+
+/* Aplicar propiedad a una selección del párrafo
+::selection */
